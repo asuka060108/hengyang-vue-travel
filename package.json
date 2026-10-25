@@ -1,0 +1,21 @@
+{
+  "name": "hengyang-travel",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "雁城衡阳 · 山水与烟火：Vue 3 衡阳旅行指南",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "postbuild": "node scripts/postbuild.mjs"
+  },
+  "dependencies": {
+    "vue": "^3.5.44",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.10",
+    "vite": "^7.3.7"
+  }
+}
