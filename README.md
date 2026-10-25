@@ -92,7 +92,7 @@ pnpm build
 pnpm preview
 ```
 
-`postbuild` 会把 `dist/index.html` 复制为 `dist/404.html`，用于 GitHub Pages 的 SPA 回退。
+`postbuild` 会把 `dist/index.html` 复制为 `dist/404.html`，并为 `scenery`、`food`、`plan` 生成目录入口，用于 GitHub Pages 的 SPA 回退和直接访问。
 
 ## 部署
 
